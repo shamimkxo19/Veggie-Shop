@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veggies</title>
+
+    <link rel="stylesheet" href="src/output.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/88f4826fd8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="Sora">
+    <header class="bg-linear-to-br from-[#EFFEFF] to-[#EFEBE3] pt-6">
+      <!-- Navbar -->
+      <nav>
+        <div class="navbar bg-transparent lg:px-32">
+          <div class="navbar-start">
+            <a class="btn btn-ghost text-xl"
+              ><img src="asset/img/logo-header.png" alt=""
+            /></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="text-xl">Product</a></li>
+              <li><a class="text-xl">View</a></li>
+              <li><a class="text-xl">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end space-x-2 lg:space-x-4">
+            <i class="fa-solid fa-cart-plus"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a class="btn hidden lg:flex lg:flex-row">Login</a>
+            <a
+              class="btn hidden lg:flex lg:flex-row bg-primary-color text-white"
+              >Register</a
+            >
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="-1"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Item 1</a></li>
+                <li>
+                  <a>Item 2</a>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Header Banner -->
+
+      <div>
+        <!-- Banner Text -->
+        <div>
+          <h1 class="text-center text-5xl font-bold mt-20">
+            Freshness
+            <span class="text-primary-color">You Can <br />Count </span> On,
+            Prices You'll Love!
+          </h1>
+        </div>
+        \
+        <!-- Banner image -->
+        <div class="w-[80%] mx-auto">
+          <img src="asset/img/hero-vegetables.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Services Section -->
+      <div class="px-9 lg:px-32 py-32">
+        <h3 class="text-primary-color text-4xl font-semibold">Services</h3>
+
+        <!-- Services Cards -->
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <!-- Card 1 -->
+          <div class="bg-linear-to-br from-[#EFFEFF] to-[#EFEBE3] rounded-xl p-8">
+            <div class="flex justify-center"><img class="p-1.5 bg-white rounded-full" src="asset/img/service.png" alt="" /></div>
+            <h4 class="text-center font-semibold text-2xl">24/7 Services</h4>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div class="bg-linear-to-br from-[#EFFEFF] to-[#EFEBE3] rounded-xl p-8">
+            <div class="flex justify-center"><img class="p-1.5 bg-white rounded-full" src="asset/img/delivery.png" alt="" /></div>
+            <h4 class="text-center font-semibold text-2xl">Fast Delivery</h4>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div class="bg-linear-to-br from-[#EFFEFF] to-[#EFEBE3] rounded-xl p-8">
+            <div class="flex justify-center"><img class="p-1.5 bg-white rounded-full" src="asset/img/healthy.png" alt="" /></div>
+            <h4 class="text-center font-semibold text-2xl">Healthy Products</h4>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
